@@ -1,4 +1,4 @@
 output "namespace" {
-  description = "Created namespace on kubernetes"
-  value       = kubernetes_namespace.namespace
+  description = "The created Namespace on Kubernetes."
+  value       = kubernetes_namespace.default
 }

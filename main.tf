@@ -1,11 +1,9 @@
-resource "kubernetes_namespace" "namespace" {
+resource "kubernetes_namespace" "default" {
   metadata {
-    annotations = {
-      name = var.namespace
-    }
-
+    name = var.name
+    annotations = merge({
+      name = var.name
+    }, var.annotations)
     labels = var.labels
-
-    name = var.namespace
   }
 }
