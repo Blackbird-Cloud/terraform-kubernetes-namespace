@@ -14,8 +14,7 @@ sections:
     - modules
 
 content: |-
-  # Kubernetes Namespace Terraform module
-  A Terraform module which configures your Kubernetes namespace.
+  {{ include "./.config/title.md"}}
 
   {{ .Header }}
 
