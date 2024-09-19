@@ -1,7 +1,8 @@
-# Kubernetes Namespace Terraform module
-A Terraform module which configures your Kubernetes namespace.
+<!-- BEGIN_TF_DOCS -->
+# Terraform Kubernetes Namespace Module
+Terraform module to create a Kubernetes namespace
 
-[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://www.blackbird.cloud)
+[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://blackbird.cloud)
 
 ## Example
 ```hcl
@@ -31,7 +32,7 @@ module "namespace" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.23.0 |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | ~> 2 |
 
 ## Resources
 
@@ -61,4 +62,5 @@ Checkout our other :point\_right: [terraform modules](https://registry.terraform
 
 ## Copyright
 
-Copyright © 2017-2023 [Blackbird Cloud](https://www.blackbird.cloud)
+Copyright © 2017-2024 [Blackbird Cloud](https://blackbird.cloud)
+<!-- END_TF_DOCS -->
